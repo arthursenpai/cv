@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #03203c;
+        color: #fff;
+        width: 100%;
+        overflow-x: hidden;
+      }
+      h1 {
+        font-size: 36px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.123);
+        padding: 10px 30px;
+        margin: 15px auto;
+      }
+      img {
+        border-radius: 15px;
+        margin-top: 10px auto;
+      }
+      p {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 24px;
+        text-align: center;
+      }
+      table {
+        all: unset;
+        font-size: 24px;
+        padding: 10px 25px;
+      }
+      .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 30px;
+      }
+      ul {
+        list-style: none;
+        padding: 30px;
+      }
+      a {
+        padding: 10px 15px;
+        background-color: #fff;
+        color: #03203c;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        transition: all 0.5s ease-in-out;
+      }
+      a:hover {
+        box-shadow: inset 300px 0 0 0 #03203c;
+        color: #fff;
+      }
+      .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 20px;
+      }
+      .contact h2 {
+        display: inline;
+      }
+      @media screen and (max-width: 998px) {
+        p {
+          width: 80%;
+        }
+        img {
+          width: 50%;
+          height: 50%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        p {
+          width: 90%;
+        }
+        img {
+          width: 50%;
+          height: 50%;
+        }
+        .contact {
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 468px) {
+        p {
+          width: 100%;
+        }
+        img {
+          width: 60%;
+          height: 60%;
+        }
+      }
+    </style>
+    <title>Atharva Mulgund</title>
+  </head>
+  <body>
+    <h1>C.V</h1>
+    <img
+      src="https://atharvamulgund.netlify.app/images/profile.jpg"
+      alt="Profile Photo"
+      width="20%"
+      height="20%"
+    />
+    <p>
+      I am a <b>Front-End developer</b> pursing Bachelor's of Engineering in
+      Information Technology. So basically, I have good knowledge of HTML, CSS(
+      <em>preprocessor, framework</em> ) also JavaScript( <em>React.js</em> ).
+      And I have a intermediate knowledge of OOP's languages Java. Apart from
+      this I can create a promotional/invitation's JPEG using Adobe Photoshop
+      and also can edit videos. And lastly I love to capture the moments through
+      my lens and give it a personal touch.
+    </p>
+    <table border="2px">
+      <tr>
+        <td>Qualification</td>
+        <td>Year Of Passing</td>
+      </tr>
+      <tr>
+        <th>H.S.C</th>
+        <th>2019</th>
+      </tr>
+      <tr>
+        <th>10th CBSE</th>
+        <th>2017</th>
+      </tr>
+    </table>
+    <div class="project">
+      <h2>Project List</h2>
+      <ul>
+        <li>
+          <a href="https://atharvamulgund.github.io/weatherly/" target="blank"
+            >Weather App</a
+          >
+        </li>
+        <li>
+          <a href="https://cal-cu-lator.netlify.app/" target="blank"
+            >Calculator</a
+          >
+        </li>
+        <li>
+          <a href="https://atharvamulgund.netlify.app"
+            >Atharva Mulgund Portfolio</a
+          >
+        </li>
+      </ul>
+    </div>
+    <h2>Contact</h2>
+    <div class="contact">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3482842588646!2d72.97820701490274!3d19.179984487028356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8da14eacea9%3A0xb4f1e032d9e4fc41!2sK.C.%20College%20of%20Engineering%20%26%20Management%20Studies%20%26%20Research!5e0!3m2!1sen!2sin!4v1632983261475!5m2!1sen!2sin"
+        width="500"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <div><a href="mailto:mulgundatharva@kccemsr.edu.in">Mail Id</a></div>
+    </div>
+  </body>
+</html>
